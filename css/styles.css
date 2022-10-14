@@ -1,0 +1,19 @@
+.text-column {
+  column-count: 3;
+  column-gap: 50px;
+  column-rule: 1px dashed lightblue;
+}
+
+/* clear fix */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  height: 300px;
+}
